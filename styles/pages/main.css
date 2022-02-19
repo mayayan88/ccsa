@@ -1,0 +1,24 @@
+@import"styles/compo/navbar.css";
+
+.containermain{
+  margin-top: 10px;
+}
+
+.card{
+  width:100%;
+  text-align: center;
+  margin:8px 0;
+}
+
+  /*@media(min-width:768px){
+    .card{
+      margin:0 8px;
+    }
+  }*/
+
+.card-text {
+   font-weight: 700;
+   text-align: center;
+   font-family: 'Poiret One', cursive;
+
+}
