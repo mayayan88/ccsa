@@ -18,7 +18,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "spss" && password === "StPaul") {
+    if (username === "spss" && password === "25773836") {
         myFunction()
     } else {
         alert("Incorrect username or password")
