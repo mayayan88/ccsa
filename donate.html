@@ -40,8 +40,8 @@
         <label for="lname">What do you want to donate?</label>
         <input type="text" id="lname" name="What do you want to donate?" placeholder="e.g I would like to donate <type of uniform>" required>
 
-        <label for="lname">Please attach photo(s) of the donation(s)</label>
-        <input type="file" name="attachment" accept="image/png, image/jpeg, image/HEIC, image/jpg">
+        <label for="lname">Please attach photo(s) of the donation(s) <br> [Please select all the files you want to upload in one go]</label>
+        <input multiple type="file" accept="image/png, image/jpeg, image/HEIC, image/jpg" name="attachment">
 
         <button class="btn" type="submit" value="Submit">Submit</button>
         <button class="btn cancel"type="button" vlaue="Submit"onclick="closeForm()">Close</button>
